@@ -1,0 +1,12 @@
+#GCP
+google-api-core==2.0.0
+google-api-python-client==2.20.0
+google-auth==2.0.2
+google-cloud-storage==1.42.1
+
+jsonschema==3.2.0
+Jinja2==2.10.1
+python-dateutil==2.8.1
+Flask==1.1.4
+MarkupSafe==2.0.1
+protobuf~=3.19.0

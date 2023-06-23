@@ -57,7 +57,6 @@ cp requirements.txt ${tmp}/requirements.txt
 # This package
 cp -R api/ ${tmp}/api
 cp function_subida_video/*.py ${tmp}/
-cp function_subida_video/*.yaml ${tmp}/function_subida_video/
 
 # Preparing to send to GCP
 echo "Zipping files..."

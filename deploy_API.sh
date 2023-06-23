@@ -29,9 +29,7 @@ deploy_API()
       --source=${code_source} \
       --trigger-http \
       --entry-point=$1 \
-      --vpc_connector=${vpc_connector} \
-      --env-vars-file settings/.envcloudfunctions.yaml
-
+      --vpc_connector=${vpc_connector}
 }
 
 echo "Validating Finished"

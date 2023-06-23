@@ -29,4 +29,4 @@ def upload_video(request=request):
 
 if __name__ == '__main__':
     app.wsgi_app = ProxyFix(app.wsgi_app)
-    app.run(port=8080, debug=True, threaded=True)
+    app.run(port=5000, debug=True, threaded=True)

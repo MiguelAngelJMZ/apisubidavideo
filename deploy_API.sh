@@ -55,7 +55,6 @@ cp -R pkg_util/ ${tmp}/pkg_util
 cp requirements.txt ${tmp}/requirements.txt
 
 # This package
-cp -R pkg_cuti/ ${tmp}/pkg_cuti
 cp -R api/ ${tmp}/api
 cp function_subida_video/*.py ${tmp}/
 cp function_subida_video/*.yaml ${tmp}/function_subida_video/
